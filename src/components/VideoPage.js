@@ -1,7 +1,10 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import RightSidevd from "./RightsideVd";
-
+import LikeComponent from "./LikeComponent";
+import CommentComponent from "./CommentComponent";
+import Description from "./Description";
+import "../components/videoPage.css";
 const VideoPage = () => {
   const { videoId } = useParams();
 
@@ -126,8 +129,36 @@ const VideoPage = () => {
           <p className="channel-name">{video.channelName}</p>
           <p className="views">{video.views}</p>
         </div>
+
         <RightSidevd></RightSidevd>
       </div>
+      <div
+        style={{ marginTop: "400px", width: "770px" }}
+        className="flex-wrap d-flex align-items-center justify-content-between"
+      >
+        <div className="d-flex align-items-center ch">
+          <div className="d-flex flex-column">
+            <h4>{video.channelName}</h4>
+            <span>{video.subcribers}</span>
+            <button
+              type="button"
+              className="ml-2 btn btn-light"
+              style={{ fontSize: "16px", padding: "5px 10px" }}
+            >
+              Subscribe
+            </button>
+          </div>
+        </div>
+        <div className="d-flex ">
+          <span className="p-1"></span>
+          <LikeComponent initialLikes={video.likeCount} />
+          <button className="ml-2 mr-2 custom-button">Share</button>
+          <button className="mr-2 custom-button">Watch Later</button>
+        </div>
+      </div>
+      <br />
+      <Description views={video.views} />
+      <CommentComponent videoId={videoId} />
     </div>
   );
 };

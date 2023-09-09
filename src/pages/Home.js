@@ -349,6 +349,7 @@ function Home() {
     selectedFilter === "all"
       ? videos
       : videos.filter((video) => video.dataItem === selectedFilter);
+  // history function
   let histryvideo = [];
   const historyvideo = (video) => {
     const savedHistory = JSON.parse(localStorage.getItem("historyvid")) || [];

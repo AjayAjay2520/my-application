@@ -11,13 +11,25 @@ const History = () => {
     const savedHistory = JSON.parse(localStorage.getItem("historyvid")) || [
       { id: "history", msg: "No history Data Found" },
     ];
-    setHistoryList(savedHistory);
+    const uniqueArray = [];
+    for (const item of savedHistory) {
+      if (!isDuplicate(uniqueArray, item)) {
+        uniqueArray.push(item);
+      }
+      function isDuplicate(array, item) {
+        const uniqueProperty = item.id; // Change 'id' to the unique property of your objects
+
+        return array.some((existingItem) => existingItem.id === uniqueProperty);
+      }
+    }
+    setHistoryList(uniqueArray);
+    console.log(uniqueArray);
   }, []);
 
   return (
-    <div className="history text-light">
-      <h4 className="ms-4">
-        <BiHistory className="mx-3]2 fs-3" />
+    <div className="history">
+      <h4 className="ms-5">
+        <BiHistory className="mx-2 fs-3" />
         History
       </h4>
       {historyList.map((videos) => (
@@ -25,11 +37,7 @@ const History = () => {
           {videos.id === "history" ? (
             <h3>{videos.msg}</h3>
           ) : (
-            <Link
-              className="links text-light"
-              to={`/video/${videos.id}`}
-              key={videos.id}
-            >
+            <Link className="links" to={`/video/${videos.id}`} key={videos.id}>
               <div className="video-style ">
                 <img
                   className="his-thumbnail"
