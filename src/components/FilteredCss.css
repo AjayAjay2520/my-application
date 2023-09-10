@@ -70,3 +70,21 @@
     transform: rotate(360deg);
   }
 }
+@media only screen and (max-width: 400px) {
+  .filters {
+    position: relative;
+    left: 25px;
+    top: 15px;
+    width: 40px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .btn-group button {
+    font-size: 12px;
+    padding: 3px;
+    font-weight: 500;
+  }
+}

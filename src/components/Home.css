@@ -103,3 +103,44 @@
   grid-template-columns: repeat(1, 25%);
   grid-gap: 0px 2px;
 }
+/* Mobile styles */
+@media only screen and (max-width: 400px) {
+  .main {
+  }
+
+  .video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(1, 25%);
+    margin-right: 150px;
+  }
+
+  .video {
+    width: 170px;
+    margin: 10px;
+    margin-left: -205px;
+  }
+
+  .thumbnail {
+    height: 102px;
+  }
+
+  .title_1 {
+    width: 104%;
+    height: 72px;
+    font-size: 12px;
+  }
+  .video-container a {
+    height: 230px;
+  }
+  .channel-icon {
+    width: 50px;
+    height: 40px;
+  }
+  .channel-name,
+  .views {
+    font-size: 10px;
+  }
+}

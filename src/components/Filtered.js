@@ -1,7 +1,7 @@
 import "../components/FilteredCss.css";
 function Filter({ selectedFilter, setSelectedFilter }) {
   return (
-    <div>
+    <div className="md-filters">
       <div
         style={{
           width: " 80%",
@@ -44,7 +44,7 @@ function Filter({ selectedFilter, setSelectedFilter }) {
             selectedFilter === "web Developement" ? "active" : ""
           }`}
         >
-          Web Developement
+          WebDevelopement
         </button>
         <button
           onClick={() => setSelectedFilter("javascript")} // Update selected filter to "css"
@@ -71,7 +71,7 @@ function Filter({ selectedFilter, setSelectedFilter }) {
             selectedFilter === "html css" ? "active" : ""
           }`}
         >
-          HTML & CSS
+          HTML&CSS
         </button>
         <button
           onClick={() => setSelectedFilter("entertainment")} // Update selected filter to "css"
@@ -89,7 +89,7 @@ function Filter({ selectedFilter, setSelectedFilter }) {
             selectedFilter === "web-tools" ? "active" : ""
           }`}
         >
-          Web-Tools
+          WebTools
         </button>
         <button
           onClick={() => setSelectedFilter("cpp-web")} // Update selected filter to "css"
@@ -98,7 +98,7 @@ function Filter({ selectedFilter, setSelectedFilter }) {
             selectedFilter === "cpp-web" ? "active" : ""
           }`}
         >
-          Cpp-Web
+          CppWeb
         </button>
         <button
           onClick={() => setSelectedFilter("react")} // Update selected filter to "css"

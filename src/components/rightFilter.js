@@ -1,7 +1,7 @@
 import "../components/rightFilter.css";
 function RightFilter({ selectedFilter, setSelectedFilter }) {
   return (
-    <div>
+    <div className="rd_filter_md">
       <div
         style={{
           position: "absolute",

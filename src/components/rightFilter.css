@@ -36,3 +36,13 @@
   object-fit: cover;
   border-radius: 10px;
 }
+
+@media only screen and (max-width: 400px) {
+  .right_video-container12 {
+    margin-top: 54rem;
+    margin-left: -147px;
+  }
+  .rd_filter_md {
+    display: none;
+  }
+}

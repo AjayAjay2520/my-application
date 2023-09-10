@@ -45,11 +45,11 @@ const History = () => {
                   alt=""
                 />
 
-                <div className="video-content ">
+                <div className="video-content text-light ">
                   <div className="video-info">
                     <p className="mb-3 video-title_1">{videos.title}</p>
                   </div>
-                  <div className="mb-3 channel-content">
+                  <div className="mb-3 channel-content ">
                     <img
                       className="video-thumbnail"
                       src={videos.channelIconSrc}

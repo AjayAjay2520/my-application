@@ -351,7 +351,7 @@ function RightSidevd() {
       : videos.filter((video) => video.dataItem === selectedFilter);
 
   return (
-    <div>
+    <div className="right_video-container12">
       <div
         style={{
           width: "480px",
