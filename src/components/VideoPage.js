@@ -1,3 +1,4 @@
+// ---------video player-----------------
 import React from "react";
 import { useParams } from "react-router-dom";
 import RightSidevd from "./RightsideVd";
@@ -5,6 +6,7 @@ import LikeComponent from "./LikeComponent";
 import CommentComponent from "./CommentComponent";
 import Description from "./Description";
 import "../components/videoPage.css";
+
 const VideoPage = () => {
   const { videoId } = useParams();
   let watchLaterVideos = [];
@@ -25,10 +27,13 @@ const VideoPage = () => {
       channelIconSrc:
         "https://yt3.ggpht.com/ZXdU2_la3sKTncWwYaF-sU3jCDaFsIG_uQC6tOmhgqsFsUDLNlDytibY-4NSx0xOWWbp2HIV=s48-c-k-c0x00ffffff-no-rj",
       title: "web design by reactjs for frontEnd",
-      channelName: "Akil",
-      subscribers: "123K ",
+      channelName: "Web Dev Simplified",
+      subscribers: "8.83 lakh Subcribers ",
       dataItem: "css", // Filter category
       videoUrl: "https://www.youtube.com/embed/rhPSo4_Tgi0?si=vwYTlSZzQqlE5MpV",
+      likeCount: 1900,
+      views: "4.6 lakh views 2years ago",
+      description: "Channel that makes learning easy",
     },
     2: {
       thumbnailSrc: "https://hackr.io/blog/python-vs-java/thumbnail/medium",
@@ -36,9 +41,12 @@ const VideoPage = () => {
         "https://yt3.ggpht.com/FqiGBOsNpeWbNw20ULboW0jy88JdpqFO9a-YRJ0C2oc4lZ8uoHYJ38PWSkrjdC_zQgNW9pGU=s48-c-k-c0x00ffffff-no-rj",
       title: "Python in 8 minutes (compared to Java)",
       channelName: "NeetCode",
-      subscribers: "531K ",
+      subscribers: "5.34 lakh Subcribers",
       dataItem: "python", // Filter category
       videoUrl: "https://www.youtube.com/embed/emNkJGwcusQ?si=9v5v94CB5wndmrBG",
+      likeCount: 4300,
+      views: "52k views 2years ago",
+      description: "Learn python now with Neet code",
     },
     3: {
       thumbnailSrc: "https://i.ytimg.com/vi/sx-1gYJyJmo/maxresdefault.jpg",
@@ -47,9 +55,12 @@ const VideoPage = () => {
       title:
         "How to make Desktop Application Using Python and Html Css || python desktop application",
       channelName: "CodeScripts",
-      subscribers: "715 ",
+      subscribers: "719 Subcribers",
       dataItem: "python", // Filter category
       videoUrl: "https://www.youtube.com/embed/CJrVX-ta4ss?si=P0WhY3IeIQ1kLJTo",
+      views: "24k views 4months ago",
+      likeCount: 900,
+      description: "Learn Desktop Application Using Python",
     },
     4: {
       thumbnailSrc: "https://i.ytimg.com/vi/rMCdddVUDX8/maxresdefault.jpg",
@@ -58,9 +69,12 @@ const VideoPage = () => {
       title:
         "JavLink vs Python Comparision | Which is Better For Future Java or Python | JavLink & Python | Simplilearn",
       channelName: "Simplilearn",
-      subscribers: "3.27M ",
+      subscribers: "32.8 lakh Subcribers",
       dataItem: "python", // Filter category
       videoUrl: "https://www.youtube.com/embed/4NOTxBkfBjo?si=HhZWgKx5NdYfros1",
+      views: "46k views 2months ago",
+      likeCount: 791,
+      description: "Learn JavLink vs Python Comparision",
     },
     5: {
       thumbnailSrc: "https://i.ytimg.com/vi/9Q3YqB0rHys/maxresdefault.jpg",
@@ -68,9 +82,12 @@ const VideoPage = () => {
         "https://yt3.ggpht.com/d8kYE1c2rp8m9AiF1-CpIWes0P_PSuRK8R2PjEdLWH9tcPMf07xOE84uSTxL4EbUVXwNhgnPfw=s48-c-k-c0x00ffffff-no-rj",
       title: "Python Tutorial - Python Full Course for Beginners in Tamil",
       channelName: "Error Makes Clever Academy",
-      subscribers: "374K ",
+      subscribers: "374K lakh Subscribers ",
       dataItem: "python",
       videoUrl: "https://www.youtube.com/embed/m67-bOpOoPU?si=7qONoYSJfjUhSlJs",
+      views: "412k views 3months ago",
+      likeCount: 11291,
+      description: "Learn JavLink vs Python Comparision",
     },
     6: {
       thumbnailSrc:
@@ -80,9 +97,13 @@ const VideoPage = () => {
       title:
         "Introduction to JavLink Language | Lecture 1 | Complete Placement Course",
       channelName: "ApnLink College",
-      subscribers: "4.21M ",
+      subscribers: "4.21M Subscribers ",
       dataItem: "java",
       videoUrl: "https://www.youtube.com/embed/yRpLlJmRo2w?si=Hh0uALW7vyd-HjY8",
+      views: "312k views 2months ago",
+      likeCount: 51291,
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, delectus accusamus aperiam expedita ratione eligendi ducimus. Quisquam obcaecati odit eos",
     },
     7: {
       thumbnailSrc:
@@ -91,9 +112,13 @@ const VideoPage = () => {
         "https://yt3.ggpht.com/_V4puAFTbWDOKAoUDhLbkYk4AupABvXsNVajUuo5zrIx-LEjaBkWsAPgif2KJaB7MmBIBcFRWw=s48-c-k-c0x00ffffff-no-rj",
       title: "How To Make THE BEST Thumbnails on YouTube (Photoshop)",
       channelName: "finzar",
-      subscribers: "303K ",
+      subscribers: "303K Subscribers ",
       dataItem: "web Developement",
       videoUrl: "https://www.youtube.com/embed/BgScmBg-bsk?si=LRHSBPmlK1KYOS9c",
+      views: "31k views 2months ago",
+      likeCount: 1291,
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, delectus accusamus aperiam expedita ratione eligendi ducimus. Quisquam obcaecati odit eos",
     },
     8: {
       thumbnailSrc:
@@ -102,9 +127,13 @@ const VideoPage = () => {
         "https://yt3.ggpht.com/ytc/AOPolaTs1IEit9EUooQAJkWS4SkpUE7oMDXYrjIgnOk1Kw=s48-c-k-c0x00ffffff-no-rj",
       title: "The BEST Way to Build Link Header! [HTML,CSS]",
       channelName: "Marc Hinton",
-      subscribers: "7.65K ",
+      subscribers: "7.65K Subscribers ",
       dataItem: "web Developement",
       videoUrl: "https://www.youtube.com/embed/GxwHXxumdQk?si=oebK8ndlgK5NWHY4",
+      views: "12k views 1months ago",
+      likeCount: 3291,
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, delectus accusamus aperiam expedita ratione eligendi ducimus. Quisquam obcaecati odit eos",
     },
     9: {
       thumbnailSrc:
@@ -114,9 +143,13 @@ const VideoPage = () => {
       title:
         "Build Link Simple Website with HTML, CSS, JavaScript – Course for Beginners",
       channelName: "freeCodeCamp.org",
-      subscribers: "8.26M ",
+      subscribers: "8.26M Subscribers ",
       dataItem: "html css",
       videoUrl: "https://www.youtube.com/embed/krfUjg0S2uI?si=DFdM0BJ6Fcic0YYa",
+      views: "52k views 4months ago",
+      likeCount: 3291,
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, delectus accusamus aperiam expedita ratione eligendi ducimus. Quisquam obcaecati odit eos",
     },
     10: {
       thumbnailSrc:
@@ -125,9 +158,13 @@ const VideoPage = () => {
         "https://yt3.ggpht.com/MgbkdtBeJKRobFd8hUJtwg05HoYN9imuK4RFlSAf2XobMGfh6SRMuSUKFAZ-0qALW7zpEfbYvA=s48-c-k-c0x00ffffff-no-rj",
       title: "Learn Complete HTML Tutorial In Tamil | தமிழ்",
       channelName: "Tutor Joe's Stanley",
-      subscribers: "441K ",
+      subscribers: "441K Subscribers ",
       dataItem: "html css",
       videoUrl: "https://www.youtube.com/embed/Oes56FoYABc?si=ZhB6nPTEZ7t11d-B",
+      views: "32k views 2months ago",
+      likeCount: 5191,
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, delectus accusamus aperiam expedita ratione eligendi ducimus. Quisquam obcaecati odit eos",
     },
     11: {
       thumbnailSrc: "https://i.ytimg.com/vi/l65CSW8D1Pk/maxresdefault.jpg",
@@ -136,9 +173,13 @@ const VideoPage = () => {
       title:
         "#1 - What is Bootstrap CSS? - (தமிழில்) (Tamil) | Bootstrap Course",
       channelName: "CyberDude Networks Pvt. Ltd.",
-      subscribers: "61.3K ",
+      subscribers: "61.3K Subcribers ",
       dataItem: "bootstrap",
       videoUrl: "https://www.youtube.com/embed/4NOTxBkfBjo?si=HhZWgKx5NdYfros1",
+      views: "11k views 5months ago",
+      likeCount: 1291,
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, delectus accusamus aperiam expedita ratione eligendi ducimus. Quisquam obcaecati odit eos",
     },
     12: {
       thumbnailSrc:
@@ -148,9 +189,13 @@ const VideoPage = () => {
       title:
         "Web Development 101: How HTML, CSS, JavaScript & PHP Work Together | PHP Tutorial #3",
       channelName: "CodeWithHarry",
-      subscribers: "4.41M ",
+      subscribers: "4.41M Subcribers ",
       dataItem: "web-development",
       videoUrl: "https://www.youtube.com/embed/m67-bOpOoPU?si=7qONoYSJfjUhSlJs",
+      views: "41k views 2months ago",
+      likeCount: 4291,
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, delectus accusamus aperiam expedita ratione eligendi ducimus. Quisquam obcaecati odit eos",
     },
     13: {
       thumbnailSrc:
@@ -159,9 +204,13 @@ const VideoPage = () => {
         "https://yt3.ggpht.com/ytc/AOPolaRu3zcJ4_fybe-8GJUmrGzc2S6xYsxw0HgMnfnI=s48-c-k-c0x00ffffff-no-rj",
       title: "HTML & CSS Full Course - Beginner to Pro",
       channelName: "SuperSimpleDev",
-      subscribers: "278K ",
+      subscribers: "278K Subcribers ",
       dataItem: "html-css",
       videoUrl: "https://www.youtube.com/embed/G3e-cpL7ofc?si=RWFA8NpD7Hxi9UDX",
+      views: "51k views 2months ago",
+      likeCount: 6291,
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, delectus accusamus aperiam expedita ratione eligendi ducimus. Quisquam obcaecati odit eos",
     },
     14: {
       thumbnailSrc:
@@ -173,6 +222,10 @@ const VideoPage = () => {
       subscribers: "2.39M ",
       dataItem: "react",
       videoUrl: "https://www.youtube.com/embed/2OTq15A5s0Y?si=Q0D1XjamLr_0EUx7",
+      views: "21k views 2months ago",
+      likeCount: 5291,
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, delectus accusamus aperiam expedita ratione eligendi ducimus. Quisquam obcaecati odit eos",
     },
     15: {
       thumbnailSrc:
@@ -185,6 +238,10 @@ const VideoPage = () => {
       subscribers: "6.97M",
       dataItem: "web-tools",
       videoUrl: "https://www.youtube.com/embed/Vblvb_s12zM?si=Iv7EdqUkCZxgon9l",
+      views: "61k views 2months ago",
+      likeCount: 5291,
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, delectus accusamus aperiam expedita ratione eligendi ducimus. Quisquam obcaecati odit eos",
     },
     16: {
       thumbnailSrc:
@@ -196,6 +253,10 @@ const VideoPage = () => {
       subscribers: "121K",
       dataItem: "javascript-css",
       videoUrl: "https://www.youtube.com/embed/GxwHXxumdQk?si=oebK8ndlgK5NWHY4",
+      views: "51k views 2months ago",
+      likeCount: 1291,
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, delectus accusamus aperiam expedita ratione eligendi ducimus. Quisquam obcaecati odit eos",
     },
     17: {
       thumbnailSrc:
@@ -207,6 +268,10 @@ const VideoPage = () => {
       subscribers: "1.2M",
       dataItem: "html-css",
       videoUrl: "https://www.youtube.com/embed/krfUjg0S2uI?si=DFdM0BJ6Fcic0YYa",
+      views: "51k views 2months ago",
+      likeCount: 6291,
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, delectus accusamus aperiam expedita ratione eligendi ducimus. Quisquam obcaecati odit eos",
     },
     18: {
       thumbnailSrc:
@@ -219,6 +284,10 @@ const VideoPage = () => {
       subscribers: "441K",
       dataItem: "javascript",
       videoUrl: "https://www.youtube.com/embed/dBUBYz75gdk?si=-d6TpfVHAHvVdNlW",
+      views: "51k views 2months ago",
+      likeCount: 6291,
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, delectus accusamus aperiam expedita ratione eligendi ducimus. Quisquam obcaecati odit eos",
     },
     19: {
       thumbnailSrc:
@@ -230,6 +299,10 @@ const VideoPage = () => {
       subscribers: "3.24K",
       dataItem: "react",
       videoUrl: "https://www.youtube.com/embed/cYga4JhX5yM?si=-LzCDtltnD7MvQL2",
+      views: "51k views 2months ago",
+      likeCount: 6291,
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, delectus accusamus aperiam expedita ratione eligendi ducimus. Quisquam obcaecati odit eos",
     },
     20: {
       thumbnailSrc:
@@ -241,6 +314,10 @@ const VideoPage = () => {
       subscribers: "372",
       dataItem: "cpp-web",
       videoUrl: "https://www.youtube.com/embed/lh3MGxP3Rl8?si=gYBFB-3eyJYoAvJS",
+      views: "51k views 2months ago",
+      likeCount: 6291,
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, delectus accusamus aperiam expedita ratione eligendi ducimus. Quisquam obcaecati odit eos",
     },
     21: {
       thumbnailSrc:
@@ -253,6 +330,10 @@ const VideoPage = () => {
       subscribers: "55.5K",
       dataItem: "java",
       videoUrl: "https://www.youtube.com/embed/QV2kGyEApuQ?si=PX6turRUOGsfxyVs",
+      views: "51k views 2months ago",
+      likeCount: 6291,
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, delectus accusamus aperiam expedita ratione eligendi ducimus. Quisquam obcaecati odit eos",
     },
     22: {
       thumbnailSrc:
@@ -265,6 +346,10 @@ const VideoPage = () => {
       subscribers: "31.7K",
       dataItem: "css",
       videoUrl: "https://www.youtube.com/embed/GlEY28YLffs?si=xCp4lW7iQ2qSeoFX",
+      views: "51k views 2months ago",
+      likeCount: 6291,
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, delectus accusamus aperiam expedita ratione eligendi ducimus. Quisquam obcaecati odit eos",
     },
     23: {
       thumbnailSrc:
@@ -277,6 +362,10 @@ const VideoPage = () => {
       subscribers: "2M",
       dataItem: "css",
       videoUrl: "https://www.youtube.com/embed/ESnrn1kAD4E?si=Vl_A9T2f9lD2xUPW",
+      views: "51k views 2months ago",
+      likeCount: 6291,
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, delectus accusamus aperiam expedita ratione eligendi ducimus. Quisquam obcaecati odit eos",
     },
     24: {
       thumbnailSrc:
@@ -288,6 +377,10 @@ const VideoPage = () => {
       subscribers: "8.27M",
       dataItem: "cpp-web",
       videoUrl: "https://www.youtube.com/embed/vLnPwxZdW4Y?si=7AKVGzYLjqE67qcc",
+      views: "51k views 2months ago",
+      likeCount: 6291,
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, delectus accusamus aperiam expedita ratione eligendi ducimus. Quisquam obcaecati odit eos",
     },
     25: {
       thumbnailSrc:
@@ -299,6 +392,10 @@ const VideoPage = () => {
       subscribers: "376",
       dataItem: "cpp-web",
       videoUrl: "https://www.youtube.com/embed/lh3MGxP3Rl8?si=0Yv62repgd39O-38",
+      views: "51k views 2months ago",
+      likeCount: 6291,
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, delectus accusamus aperiam expedita ratione eligendi ducimus. Quisquam obcaecati odit eos",
     },
     26: {
       thumbnailSrc:
@@ -310,6 +407,10 @@ const VideoPage = () => {
       subscribers: "2.4M",
       dataItem: "web-tools",
       videoUrl: "https://www.youtube.com/embed/b1HiZvIlWQk?si=ohkeckzdYvtGPX5K",
+      views: "51k views 2months ago",
+      likeCount: 6291,
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, delectus accusamus aperiam expedita ratione eligendi ducimus. Quisquam obcaecati odit eos",
     },
     27: {
       thumbnailSrc:
@@ -321,6 +422,10 @@ const VideoPage = () => {
       subscribers: "2.4M",
       dataItem: "react",
       videoUrl: "https://www.youtube.com/embed/TIu_KrdWO1M?si=hnL3Vov41P7kq7Vs",
+      views: "51k views 2months ago",
+      likeCount: 6291,
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, delectus accusamus aperiam expedita ratione eligendi ducimus. Quisquam obcaecati odit eos",
     },
     28: {
       thumbnailSrc:
@@ -332,6 +437,10 @@ const VideoPage = () => {
       subscribers: "2.4M",
       dataItem: "entertainment",
       videoUrl: "https://www.youtube.com/embed/tu1DeYVOJL4?si=JK9HWh4aQ2JTBlnD",
+      views: "51k views 2months ago",
+      likeCount: 6291,
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, delectus accusamus aperiam expedita ratione eligendi ducimus. Quisquam obcaecati odit eos",
     },
     29: {
       thumbnailSrc:
@@ -343,6 +452,10 @@ const VideoPage = () => {
       subscribers: "1.2M",
       dataItem: "entertainment",
       videoUrl: "https://www.youtube.com/embed/c_dlAdBhPng?si=2xXwW-H-qJgVIer",
+      views: "51k views 2months ago",
+      likeCount: 6291,
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, delectus accusamus aperiam expedita ratione eligendi ducimus. Quisquam obcaecati odit eos",
     },
     30: {
       thumbnailSrc:
@@ -354,6 +467,10 @@ const VideoPage = () => {
       subscribers: "2M",
       dataItem: "entertainment",
       videoUrl: "https://www.youtube.com/embed/6kcmTTYDPF0?si=o6ujbuc0Oy8VWgHV",
+      views: "51k views 2months ago",
+      likeCount: 6291,
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, delectus accusamus aperiam expedita ratione eligendi ducimus. Quisquam obcaecati odit eos",
     },
   };
 
@@ -384,9 +501,9 @@ const VideoPage = () => {
           <p className="channel-name">{video.channelName}</p>
   <p className="views">{video.views}</p>*/}
         </div>
-
-        <RightSidevd></RightSidevd>
+        <RightSidevd />
       </div>
+
       <div
         style={{ marginTop: "400px", width: "770px" }}
         className="flex-wrap d-flex align-items-center justify-content-between"
@@ -394,15 +511,15 @@ const VideoPage = () => {
         <div className="d-flex align-items-center ch">
           <div className="d-flex flex-column">
             <h4>{video.channelName}</h4>
-            <span>{video.subcribers}</span>
-            <button
-              type="button"
-              className="ml-2 btn btn-light"
-              style={{ fontSize: "16px", padding: "5px 10px" }}
-            >
-              Subscribe
-            </button>
+            <span>{video.subscribers}</span>
           </div>
+          <button
+            type="button"
+            className="ml-2 btn btn-light"
+            style={{ fontSize: "16px", padding: "5px 10px" }}
+          >
+            Subscribe
+          </button>
         </div>
         <div className="d-flex ">
           <span className="p-1"></span>
@@ -417,7 +534,7 @@ const VideoPage = () => {
         </div>
       </div>
       <br />
-      <Description views={video.views} />
+      <Description description={video.description} views={video.views} />
       <CommentComponent videoId={videoId} />
     </div>
   );

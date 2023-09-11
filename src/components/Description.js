@@ -1,15 +1,11 @@
 import React from "react";
 import "./description.css";
 
-const Description = ({ views }) => {
+const Description = ({ description, views }) => {
   return (
     <div style={{ width: "760px" }} className="vid-des">
       <p>{views}</p>
-      <p>Channel that makes learning easy</p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam tempore
-        provident earum! Ut quo repudiandae dicta sit officiis! Veniam, soluta.
-      </p>
+      <p>{description}</p> {/* Display the video description dynamically */}
       <hr />
     </div>
   );
