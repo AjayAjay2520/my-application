@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import { AiOutlineLike, AiOutlineDislike } from 'react-icons/ai';
 import './likeComponent.css';
 
-const LikeComponent = ({ initialLikes, initialDislikes }) => {
+const LikeComponent = ({ initialLikes, initialDislikes,likedvideos }) => {
   const [likes, setLikes] = useState(initialLikes || 0);
   const [dislikes, setDislikes] = useState(initialDislikes || 0);
   const [likeOrDislike, setLikeOrDislike] = useState(null);
 
-  const handleLikeClick = () => {
+  const handleLikeClick = (liked) => {
     if (likeOrDislike === 'like') {
       setLikes(likes - 1);
       setLikeOrDislike(null);
@@ -18,7 +18,17 @@ const LikeComponent = ({ initialLikes, initialDislikes }) => {
       setLikes(likes + 1);
       setLikeOrDislike('like');
     }
+
+
   };
+
+  let likedvideoHistory=[];
+  const likedvid=(likedhistory)=>{
+    const savedHistory = JSON.parse(localStorage.getItem("likedVideos")) || [];
+    likedvideoHistory.push(likedhistory);
+    const updatedLikedHistory = [...savedHistory, ...likedvideoHistory];
+    localStorage.setItem("likedVideos", JSON.stringify(updatedLikedHistory));
+  }
 
   const handleDislikeClick = () => {
     if (likeOrDislike === 'dislike') {
@@ -39,6 +49,7 @@ const LikeComponent = ({ initialLikes, initialDislikes }) => {
         className={`like-icon ${likeOrDislike === 'like' ? 'liked' : ''}`}
         onClick={handleLikeClick}
       >
+        <span onClick={likedvid(likedvideos)}></span>
         <AiOutlineLike className="icon" /> {likes}
       </span>
       <span

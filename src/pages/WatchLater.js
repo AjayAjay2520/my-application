@@ -10,7 +10,18 @@ const WatchLater = () => {
     const savedHistory = JSON.parse(localStorage.getItem("watchLater")) || [
       { id: "WATCH LATER", msg: "No  Data Found" },
     ];
-    setHistoryList(savedHistory);
+    const uniqueArray = [];
+    for (const item of savedHistory) {
+      if (!isDuplicate(uniqueArray, item)) {
+        uniqueArray.push(item);
+      }
+      function isDuplicate(array, item) {
+        const uniqueProperty = item.id;
+        return array.some((existingItem) => existingItem.id === uniqueProperty);
+      }
+    }
+    setHistoryList(uniqueArray);
+    console.log(uniqueArray);
   }, []);
 
   return (
@@ -30,7 +41,7 @@ const WatchLater = () => {
       </h4>
       {historyList.map((videos) => (
         <div className="">
-          {videos.id === "history" ? (
+          {videos.id === "WATCH LATER" ? (
             <h3>{videos.msg}</h3>
           ) : (
             <Link className="links" to={`/video/${videos.id}`} key={videos.id}>

@@ -4,12 +4,12 @@ function Filter({ selectedFilter, setSelectedFilter }) {
     <div className="md-filters">
       <div
         style={{
-          width: " 80%",
+          width: " 83%",
           position: "fixed",
           backgroundColor: "black",
           height: "80px",
         }}
-        className="mt-4 ms-4 filters btn-group d-flex fs-6 "
+        className="mt-4 filters btn-group d-flex fs-6 "
       >
         <button
           onClick={() => setSelectedFilter("all")} // Update selected filter to "all"

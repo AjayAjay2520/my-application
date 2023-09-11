@@ -35,7 +35,7 @@ const History = () => {
       {historyList.map((videos) => (
         <div className="">
           {videos.id === "history" ? (
-            <h3>{videos.msg}</h3>
+            <h3 className=" text-light">{videos.msg}</h3>
           ) : (
             <Link className="links" to={`/video/${videos.id}`} key={videos.id}>
               <div className="video-style ">
