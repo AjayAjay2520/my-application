@@ -45,30 +45,7 @@ const History = () => {
                   alt=""
                 />
 
-
-                <div className="video-content text-light ">
-
-                  <div className="video-content text-light">
-                    <div className="video-info">
-                      <p className="mb-3 video-title_1">{videos.title}</p>
-                    </div>
-                    <div className="mb-3 channel-content ">
-                      <img
-                        className="video-thumbnail"
-                        src={videos.channelIconSrc}
-                        alt=""
-                        style={{ width: 35, height: 35 }}
-                      />
-                      <p className="my-auto video-channel-name">
-                        {videos.channelName}
-                      </p>
-                    </div>
-                    <p className="mb-1 video-views">
-                      {videos.subscribers} subscribers
-=======
-=======
                 <div className="video-content text-light">
->>>>>>> f9c2c8f203e2c3c807b8cc287323ec8a80a50dae
                   <div className="video-info">
                     <p className="mb-3 video-title_1">{videos.title}</p>
                   </div>
@@ -81,7 +58,11 @@ const History = () => {
                     />
                     <p className="my-auto video-channel-name">
                       {videos.channelName}
->>>>>>> 0d3e2a5bdc74497f9b3d3dbd20b23d247e26a34e
+                    </p>
+                  </div>
+                  <div className="mt-3">
+                    <p className=" video-views">
+                      {videos.subscribers} subscribers
                     </p>
                   </div>
                 </div>

@@ -14,7 +14,7 @@ function RightSidevd() {
         "https://yt3.ggpht.com/ZXdU2_la3sKTncWwYaF-sU3jCDaFsIG_uQC6tOmhgqsFsUDLNlDytibY-4NSx0xOWWbp2HIV=s48-c-k-c0x00ffffff-no-rj",
       title: "web design by reactjs for frontEnd",
       channelName: "Akil",
-      subscribers: "50k Views . 1 Year ago ",
+      subscribers: "50k Views . 1 Year ago 500k  ",
       dataItem: "css", // Filter category
     },
     {
@@ -24,7 +24,7 @@ function RightSidevd() {
         "https://yt3.ggpht.com/FqiGBOsNpeWbNw20ULboW0jy88JdpqFO9a-YRJ0C2oc4lZ8uoHYJ38PWSkrjdC_zQgNW9pGU=s48-c-k-c0x00ffffff-no-rj",
       title: "Python in 8 minutes (compared to Java)",
       channelName: "NeetCode",
-      subscribers: "531K ",
+      subscribers: "50K Views . 6 months ago 1M",
       dataItem: "python", // Filter category
     },
     {
@@ -35,7 +35,7 @@ function RightSidevd() {
       title:
         "How to make Desktop Application Using Python and Html Css || python desktop application",
       channelName: "CodeScripts",
-      subscribers: "715 ",
+      subscribers: "1K Views . 10 months  ago 200k  ",
       dataItem: "python", // Filter category
     },
     {
@@ -46,7 +46,7 @@ function RightSidevd() {
       title:
         "JavLink vs Python Comparision | Which is Better For Future Java or Python | JavLink & Python | Simplilearn",
       channelName: "Simplilearn",
-      subscribers: "3.27M ",
+      subscribers: "50K Views . 3 Year ago 3.27M ",
       dataItem: "python", // Filter category
     },
     {
@@ -56,7 +56,7 @@ function RightSidevd() {
         "https://yt3.ggpht.com/d8kYE1c2rp8m9AiF1-CpIWes0P_PSuRK8R2PjEdLWH9tcPMf07xOE84uSTxL4EbUVXwNhgnPfw=s48-c-k-c0x00ffffff-no-rj",
       title: "Python Tutorial - Python Full Course for Beginners in Tamil",
       channelName: "Error Makes Clever Academy",
-      subscribers: "374K ",
+      subscribers: "20K Views . 2 months ago 374K ",
       dataItem: "python",
     },
     {
@@ -68,7 +68,7 @@ function RightSidevd() {
       title:
         "Introduction to JavLink Language | Lecture 1 | Complete Placement Course",
       channelName: "ApnLink College",
-      subscribers: "4.21M ",
+      subscribers: "1M Views . 2 Year ago 4.21M ",
       dataItem: "java",
     },
     {
@@ -79,7 +79,7 @@ function RightSidevd() {
         "https://yt3.ggpht.com/_V4puAFTbWDOKAoUDhLbkYk4AupABvXsNVajUuo5zrIx-LEjaBkWsAPgif2KJaB7MmBIBcFRWw=s48-c-k-c0x00ffffff-no-rj",
       title: "How To Make THE BEST Thumbnails on YouTube (Photoshop)",
       channelName: "finzar",
-      subscribers: "303K ",
+      subscribers: "1K Views . 10 months ago 303K ",
       dataItem: "web Developement",
     },
     {
@@ -90,7 +90,7 @@ function RightSidevd() {
         "https://yt3.ggpht.com/ytc/AOPolaTs1IEit9EUooQAJkWS4SkpUE7oMDXYrjIgnOk1Kw=s48-c-k-c0x00ffffff-no-rj",
       title: "The BEST Way to Build Link Header! [HTML,CSS]",
       channelName: "Marc Hinton",
-      subscribers: "7.65K ",
+      subscribers: "2K Views . 3 Year ago 7.65K ",
       dataItem: "web Developement",
     },
     {
@@ -102,7 +102,7 @@ function RightSidevd() {
       title:
         "Build Link Simple Website with HTML, CSS, JavaScript – Course for Beginners",
       channelName: "freeCodeCamp.org",
-      subscribers: "8.26M ",
+      subscribers: "2M Views . 3 Year ago 8.26M  ",
       dataItem: "html css",
     },
     {
@@ -113,7 +113,7 @@ function RightSidevd() {
         "https://yt3.ggpht.com/MgbkdtBeJKRobFd8hUJtwg05HoYN9imuK4RFlSAf2XobMGfh6SRMuSUKFAZ-0qALW7zpEfbYvA=s48-c-k-c0x00ffffff-no-rj",
       title: "Learn Complete HTML Tutorial In Tamil | தமிழ்",
       channelName: "Tutor Joe's Stanley",
-      subscribers: "441K ",
+      subscribers: "23K Views . 9 months ago 441K  ",
       dataItem: "html css",
     },
     {
@@ -124,7 +124,7 @@ function RightSidevd() {
       title:
         "#1 - What is Bootstrap CSS? - (தமிழில்) (Tamil) | Bootstrap Course",
       channelName: "CyberDude Networks Pvt. Ltd.",
-      subscribers: "61.3K ",
+      subscribers: "5K Views . 7 months ago 61.3K ",
       dataItem: "bootstrap",
     },
     {
@@ -136,7 +136,7 @@ function RightSidevd() {
       title:
         "Web Development 101: How HTML, CSS, JavaScript & PHP Work Together | PHP Tutorial #3",
       channelName: "CodeWithHarry",
-      subscribers: "4.41M ",
+      subscribers: "3M Views . 3 Year ago 4.41M ",
       dataItem: "web-development",
     },
     {
@@ -147,7 +147,7 @@ function RightSidevd() {
         "https://yt3.ggpht.com/ytc/AOPolaRu3zcJ4_fybe-8GJUmrGzc2S6xYsxw0HgMnfnI=s48-c-k-c0x00ffffff-no-rj",
       title: "HTML & CSS Full Course - Beginner to Pro",
       channelName: "SuperSimpleDev",
-      subscribers: "278K ",
+      subscribers: "50K Views . 1 Year ago 278K  ",
       dataItem: "html-css",
     },
     {
@@ -158,7 +158,7 @@ function RightSidevd() {
         "https://yt3.ggpht.com/ytc/AOPolaQ2iMmw9cWFFjnwa13nBwtZQbl-AqGYkkiTqNaTLg=s48-c-k-c0x00ffffff-no-rj",
       title: "7 better ways to create Link React app",
       channelName: "Fireship",
-      subscribers: "2.39M ",
+      subscribers: "90K Views . 1 Year ago 2.39M ",
       dataItem: "react",
     },
     {
@@ -170,7 +170,7 @@ function RightSidevd() {
       title:
         "Top 7 Tools For Web Development | Web Development Tools | Intellipaat",
       channelName: "Intellipaat",
-      subscribers: "6.97M",
+      subscribers: "2M Views . 1 Year ago 6.97M",
       dataItem: "web-tools",
     },
     {
@@ -181,7 +181,7 @@ function RightSidevd() {
         "https://yt3.ggpht.com/s5Eex4ZIqBSe2y2k5aidi71WGkfEJORkY-Hn2QDVMJxnkpRB5FdlOiHC9V1yyLuxSaCv5JCVYmM=s48-c-k-c0x00ffffff-no-rj",
       title: "Getting CSS Styles with JavaScript - getComputedStyle() function",
       channelName: "dcode",
-      subscribers: "121K",
+      subscribers: "5K Views . 3 Year ago 121K",
       dataItem: "javascript-css",
     },
     {
@@ -192,7 +192,7 @@ function RightSidevd() {
         "https://yt3.ggpht.com/ytc/AOPolaQ8qd9YUFBorodGktxw_--6xfk2EscQ-aT2v-dC6w=s48-c-k-c0x00ffffff-no-rj",
       title: "HTML & CSS Full Course for free 🌎 (2023)",
       channelName: "Bro Code",
-      subscribers: "1.2M",
+      subscribers: "50K Views . 1 Year ago 1.2M",
       dataItem: "html-css",
     },
     {
@@ -204,7 +204,7 @@ function RightSidevd() {
       title:
         "JavaScript Complete Tutorial in Tamil | Tutor Joes | Full Stack Web Development",
       channelName: "Tutor Joe's Stanley",
-      subscribers: "441K",
+      subscribers: "10K Views . 10 months ago 441K",
       dataItem: "javascript",
     },
     {
@@ -215,7 +215,7 @@ function RightSidevd() {
         "https://yt3.ggpht.com/zSgb9auUHE_pgzi5Thya71hkDGx-F0F56SbpH3sW1IG899YDeva92ff0Is1oidgB3J1v4kgTTw=s48-c-k-c0x00ffffff-no-rj",
       title: "01. HTML, CSS, JS to React - #01 Introduction and Setup",
       channelName: "Lifetechfacts",
-      subscribers: "3.24K",
+      subscribers: "800 Views . 10 months ago 3.24K",
       dataItem: "react",
     },
     {
@@ -226,7 +226,7 @@ function RightSidevd() {
         "https://yt3.ggpht.com/ytc/AOPolaReFpOoeq7FZ3A0u6MOKndgE57CV-5vpqGIlt4yBA=s48-c-k-c0x00ffffff-no-rj",
       title: "Building website with C++",
       channelName: "Ishtiak Mokut",
-      subscribers: "372",
+      subscribers: "50 Views . 20 Days ago 372",
       dataItem: "cpp-web",
     },
     {
@@ -238,7 +238,7 @@ function RightSidevd() {
       title:
         "#1 | Program to print half pyramid using * and Numbers | Java Pattern Programming in Tamil",
       channelName: "SANTRA TECHSPOT",
-      subscribers: "55.5K",
+      subscribers: "3K Views . 9 months ago 55.5K",
       dataItem: "java",
     },
     {
@@ -250,7 +250,7 @@ function RightSidevd() {
       title:
         "CSS Tutorial for beginners in Tamil | Full Course for Beginners | Basic to Advanced concepts",
       channelName: "Balachandra",
-      subscribers: "31.7K",
+      subscribers: "5K Views . 1 Year ago 31.7K",
       dataItem: "css",
     },
     {
@@ -262,7 +262,7 @@ function RightSidevd() {
       title:
         "CSS Tutorial for Beginners | Complete CSS with Project, Notes & Code",
       channelName: "Apna College",
-      subscribers: "2M",
+      subscribers: "800K Views . 6 months ago 2M",
       dataItem: "css",
     },
     {
@@ -273,7 +273,7 @@ function RightSidevd() {
         "		https://yt3.ggpht.com/ytc/AOPolaTs1IEit9EUooQAJkWS4SkpUE7oMDXYrjIgnOk1Kw=s68-c-k-c0x00ffffff-no-rj",
       title: "C++ Tutorial for Beginners - Full Course",
       channelName: "freeCodeCamp.org",
-      subscribers: "8.27M",
+      subscribers: "3M Views . 2 Year ago 8.27M",
       dataItem: "cpp-web",
     },
     {
@@ -284,7 +284,7 @@ function RightSidevd() {
         "			https://yt3.ggpht.com/ytc/AOPolaReFpOoeq7FZ3A0u6MOKndgE57CV-5vpqGIlt4yBA=s68-c-k-c0x00ffffff-no-rj",
       title: "Building website with C++",
       channelName: "Ishtiak Mokut",
-      subscribers: "376",
+      subscribers: "100 Views . 7 Days ago 376",
       dataItem: "cpp-web",
     },
     {
@@ -295,7 +295,7 @@ function RightSidevd() {
         "				https://yt3.ggpht.com/ytc/AOPolaQ2iMmw9cWFFjnwa13nBwtZQbl-AqGYkkiTqNaTLg=s68-c-k-c0x00ffffff-no-rj",
       title: "21+ Browser Dev Tools & Tips You Need To Know",
       channelName: "Fireship",
-      subscribers: "2.4M",
+      subscribers: "1M Views . 2 years ago 2.4M",
       dataItem: "web-tools",
     },
     {
@@ -306,7 +306,7 @@ function RightSidevd() {
         "					https://yt3.ggpht.com/ytc/AOPolaQtlu0PGwRzx9cBYqccwGgJquizsY8oLzj-c7mNGQ=s68-c-k-c0x00ffffff-no-rj",
       title: "21+ Browser Dev Tools & Tips You Need To Know",
       channelName: "GorkCoder",
-      subscribers: "2.4M",
+      subscribers: "10k Views . 6 months ago 376 800k",
       dataItem: "react",
     },
     {
@@ -317,7 +317,7 @@ function RightSidevd() {
         "	https://yt3.ggpht.com/PkDljE3xM2RwK7Y9vF5UG5yGEy1m…xxmTaSlllCGlac7Jnf3bfYg=s68-c-k-c0x00ffffff-no-rj",
       title: "High-tech circus: The future of entertainment?",
       channelName: "CNN Business",
-      subscribers: "2.4M",
+      subscribers: "100k Views . 12 Days ago 1M",
       dataItem: "entertainment",
     },
     {
@@ -328,7 +328,7 @@ function RightSidevd() {
         "	https://yt3.ggpht.com/ytc/AOPolaQIPtPYGGPVHeOlmzzJFGneh04djMx6nHIS0ZEAEw=s68-c-k-c0x00ffffff-no-rj",
       title: "The Future of Entertainment",
       channelName: "The List Snow Tv",
-      subscribers: "1.2M",
+      subscribers: "800 Views . 7 Days ago 100k",
       dataItem: "entertainment",
     },
     {
@@ -339,7 +339,7 @@ function RightSidevd() {
         "	https://yt3.ggpht.com/ytc/AOPolaSiRupzEgAaZYAidbAFh-nh3C-Blwf1BEOpL4Gn=s68-c-k-c0x00ffffff-no-rj",
       title: "Technology and entertainment",
       channelName: "Pacey vids",
-      subscribers: "2M",
+      subscribers: "300k Views . 7 Days ago 2M",
       dataItem: "entertainment",
     },
     // Add more video objects here

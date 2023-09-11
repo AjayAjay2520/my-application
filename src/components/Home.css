@@ -8,7 +8,7 @@
   padding: 20px;
   display: grid;
   grid-template-columns: repeat(4, 25%);
-  grid-gap: 20px 5px;
+  grid-gap: 40px 5px;
 }
 
 .video-container a {
