@@ -45,7 +45,11 @@ const History = () => {
                   alt=""
                 />
 
+<<<<<<< HEAD
                 <div className="video-content text-light ">
+=======
+                <div className="video-content text-light">
+>>>>>>> f9c2c8f203e2c3c807b8cc287323ec8a80a50dae
                   <div className="video-info">
                     <p className="mb-3 video-title_1">{videos.title}</p>
                   </div>
