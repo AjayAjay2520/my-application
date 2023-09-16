@@ -6,23 +6,28 @@ import "../components/likeComponent.css";
 
 const LikedVideos = () => {
   const [LikedList, setLikedList] = useState([]);
-  useEffect(() => {
+useEffect(() => {
     const savedLikedvideo = JSON.parse(localStorage.getItem("likedVideos")) || [
       { id: "likedVideos", msg: "Your Liked Videos is empty" },
     ];
     const uniqueLikedArray = [];
-    for (const item of savedLikedvideo) {
-      if (!isDuplicate(uniqueLikedArray, item)) {
-        uniqueLikedArray.push(item);
-      }
-      function isDuplicate(array, item) {
-        const uniqueLikedProperty = item.id; // Change 'id' to the unique property of your objects
 
-        return array.some(
-          (existingItem) => existingItem.id === uniqueLikedProperty
-        );
+    for (const item of savedLikedvideo) {
+      if (item && typeof item === "object" && "id" in item) {
+        if (!isDuplicate(uniqueLikedArray, item)) {
+          uniqueLikedArray.push(item);
+        }
       }
     }
+
+    function isDuplicate(array, item) {
+      const uniqueLikedProperty = item.id;
+
+      return array.some(
+        (existingItem) => existingItem.id === uniqueLikedProperty
+      );
+    }
+
     setLikedList(uniqueLikedArray);
     console.log(uniqueLikedArray);
   }, []);
